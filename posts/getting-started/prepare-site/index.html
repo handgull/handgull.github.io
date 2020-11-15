@@ -1,0 +1,260 @@
+<!doctype html><html><head><title>Prepare Your Site</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/assets/css/bootstrap.min.css><link rel=stylesheet href=/assets/css/layouts/main.css><link rel=stylesheet href=/assets/css/style.css><link rel=stylesheet href=/assets/css/navigators/navbar.css><link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css><link rel=icon type=image/png href=/assets/images/favicon.png><link rel=stylesheet href=/assets/css/style.css><meta name=description content="Prepare Your Site"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/assets/css/layouts/single.css><link rel=stylesheet href=/assets/css/navigators/sidebar.css><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-122321624-2','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span></button>
+<a class=navbar-brand href=/><img src=/assets/images/main-logo.png>Toha</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"></ul></div></div><img src=/assets/images/main-logo.png class=d-none id=main-logo>
+<img src=/assets/images/inverted-logo.png class=d-none id=inverted-logo></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><input type=text placeholder=Search data-search id=search-box><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts data-filter=all>Posts</a></li><div class=subtree><li><a href=/posts/features/>Features</a></li><li><i class="fas fa-minus-circle"></i><a class=active href=/posts/getting-started/>Getting Started</a><ul class=active><li><a class=active href=/posts/getting-started/prepare-site/>Prepare Site</a></li><li><a href=/posts/getting-started/github-pages/>Deploy in Github Pages</a></li><li><a href=/posts/getting-started/netlify/>Deploy in Netlify</a></li><li><a href=/posts/getting-started/theme-update/>Automate Theme Update</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/configuration/>Configuration</a><ul><li><a href=/posts/configuration/site-parameters/>Site Parameters</a></li><li><i class="fas fa-plus-circle"></i><a href=/posts/configuration/sections/>Sections</a><ul><li><a href=/posts/configuration/sections/about-section/>About Section</a></li><li><a href=/posts/configuration/sections/skills-section/>Skills Section</a></li><li><a href=/posts/configuration/sections/experience-section/>Experiences Section</a></li><li><a href=/posts/configuration/sections/project-section/>Projects Section</a></li><li><a href=/posts/configuration/sections/recent-posts-section/>Recent Posts Section</a></li><li><a href=/posts/configuration/sections/achievements-section/>Achievements Section</a></li></ul></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/writing-posts/>Writing Posts</a><ul><li><i class="fas fa-plus-circle"></i><a href=/posts/writing-posts/category/>Category</a><ul><li><a href=/posts/writing-posts/category/creating-category/>Creating Category</a></li><li><i class="fas fa-plus-circle"></i><a href=/posts/writing-posts/category/sub-category/>Sub-Category</a><ul><li><a href=/posts/writing-posts/category/sub-category/creating-sub-category/>Creating Sub-Category</a></li></ul></li></ul></li><li><a href=/posts/writing-posts/front-matter/>Front Matter</a></li><li><a href=/posts/writing-posts/markdown-syntax-guide/>Markdown Guide</a></li><li><a href=/posts/writing-posts/math-type-settings/>Math Guide</a></li><li><a href=/posts/writing-posts/rich-content/>Rich Content</a></li><li><a href=/posts/writing-posts/using-emoji/>Using Emoji</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/customizing/>Customizing</a><ul><li><a href=/posts/customizing/add-section/>Adding New Section</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/translation/>Translation</a><ul><li><a href=/posts/translation/site-data/>Translating Homepage</a></li><li><a href=/posts/translation/content/>Translating Posts</a></li></ul></li><li><a href=/posts/analytics-and-comments/>Analytics & Comments</a></li><li><i class="fas fa-plus-circle"></i><a href=/posts/short-codes/>Short Codes</a><ul><li><a href=/posts/short-codes/alert/>Alert</a></li><li><a href=/posts/short-codes/img/>Image</a></li><li><a href=/posts/short-codes/split/>Split</a></li><li><a href=/posts/short-codes/vs/>Vertical Space</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(https://toha-guides.netlify.app/posts/getting-started/prepare-site/octocat.jpg)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/avatar.png><h5 class=author-name>Jane Doe</h5><p>June 8, 2020</p></div><div class=title><h1>Prepare Your Site</h1></div><div class=post-content id=post-content><p>Greeting! Thank you for deciding to use this theme. In this post, we are going to create a hugo site from scratch. Then, we will configure it with <code>Toha</code> theme, make it multilingual, add some example posts. At the end of this post, you should be able to run a fully functional hugo site with <code>Toha</code> theme locally.</p><p>If you want a head start, you can just fork <a href=https://github.com/hugo-toha/hugo-toha.github.io>hugo-toha/hugo-toha.github.io</a> repo, rename it and update with your own data. This repo has already been configured to deploy in <a href=https://pages.github.com/>Github Pages</a> and <a href=https://www.netlify.com/>Netlify</a>.</p><p>If you already have a hugo site, skip to the <a href=#add-theme>Add Theme</a> section.</p><h3 id=create-repository>Create Repository</h3><p>At first, create a repository in Github. If you want to deploy this site in Github Pages, your repo named should be <code>&lt;your user name>.github.io</code>. Clone the repository into your local machine and navigate into it.</p><h3 id=create-site>Create Site</h3><p>Now, make sure that you have <a href=https://gohugo.io/getting-started/installing/>Hugo</a> installed. This theme should work with hugo version <code>v0.68.0</code> and later. Now, run the following command in the root of your repository to initiate a hugo website.</p><pre><code class=language-console data-lang=console>$ hugo new site ./ -f=yaml --force
+</code></pre><p>This command will create a basic hugo site structure. Here, <code>-f=yaml</code> flag tells hugo to create configuration file in YAML format and <code>--force</code> flag forces hugo to create a site even if the target directory is not empty.</p><h3 id=add-theme>Add Theme</h3><p>Now, it is time to add a theme into your site. Add Toha theme as git sub-module of your repository using the following command:</p><pre><code class=language-console data-lang=console>$ git submodule add https://github.com/hugo-toha/toha.git themes/toha
+</code></pre><div style=margin-top:1rem></div><blockquote><p>Don&rsquo;t use SSH URL of the theme during adding it as git sub-module. Also, don&rsquo;t clone the theme in your <code>themes</code> directory using <code>git clone</code>. Otherwise, we won&rsquo;t be able to automate the site publishing using Github Action or Netlify.</p></blockquote><h3 id=run-site-locally>Run Site Locally</h3><p>Now, you can already run your site locally. Let&rsquo;s run the site in watch mode using the following command:</p><pre><code class=language-console data-lang=console>$ hugo server -t toha -w
+</code></pre><p>If you navigate to <code>http://localhost:1313</code>, you should see a basic site with Toha theme. In the next section, we are going to configure the site to look like the <a href=https://hugo-toha.github.io/>hugo-toha.github.io</a>. As we have run the server in watch mode, any changes we make to the site will be instantly visible in the browser.</p><h3 id=configure-site>Configure Site</h3><p>Now, we are ready to configure our site. In this section, we are going to add author information, different sections, and sample posts etc.</p><h4 id=update-configyaml>Update <code>config.yaml</code></h4><p>When you have created the site using <code>hugo new site</code> command, it has created a <code>config.yaml</code> file in the root of your repository. Replace the default content of the <code>config.yaml</code> file with the following:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>baseURL</span>: <span style=color:#ae81ff>https://hugo-toha.github.io</span>
+
+<span style=color:#f92672>languageCode</span>: <span style=color:#ae81ff>en-us</span>
+<span style=color:#f92672>title</span>: <span style=color:#e6db74>&#34;John&#39;s Blog&#34;</span>
+<span style=color:#f92672>theme</span>: <span style=color:#e6db74>&#34;toha&#34;</span>
+
+<span style=color:#75715e># Manage languages</span>
+<span style=color:#75715e># For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/</span>
+<span style=color:#f92672>languages</span>:
+  <span style=color:#f92672>en</span>:
+    <span style=color:#f92672>languageName</span>: <span style=color:#ae81ff>English</span>
+    <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>1</span>
+
+<span style=color:#75715e># Control TOC depth</span>
+<span style=color:#f92672>markup</span>:
+  <span style=color:#f92672>tableOfContents</span>:
+    <span style=color:#f92672>startLevel</span>: <span style=color:#ae81ff>2</span>
+    <span style=color:#f92672>endLevel</span>: <span style=color:#ae81ff>6</span>
+    <span style=color:#f92672>ordered</span>: <span style=color:#66d9ef>false</span>
+
+<span style=color:#75715e># Enable global emoji support</span>
+<span style=color:#f92672>enableEmoji</span>: <span style=color:#66d9ef>true</span>
+
+<span style=color:#75715e># Site parameters</span>
+<span style=color:#f92672>params</span>:
+  <span style=color:#75715e># GitHub repo URL of your site</span>
+  <span style=color:#f92672>gitRepo</span>: <span style=color:#ae81ff>https://github.com/hugo-toha/hugo-toha.github.io</span>
+
+  <span style=color:#75715e># specify whether you want to write some blog posts or not</span>
+  <span style=color:#f92672>enableBlogPost</span>: <span style=color:#66d9ef>true</span>
+
+  <span style=color:#75715e># specify whether you want to show Table of Contents in reading page</span>
+  <span style=color:#f92672>enableTOC</span>: <span style=color:#66d9ef>true</span>
+
+  <span style=color:#75715e># Provide newsletter configuration. This feature hasn&#39;t been implemented yet.</span>
+  <span style=color:#75715e># Currently, you can just hide it from the footer.</span>
+  <span style=color:#f92672>newsletter</span>:
+    <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+</code></pre></div><p>Here, you are seeing a basic configuration for Toha theme. You can see the configuration file used in the example site form <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/config.yaml>here</a>. For more detailed configuration options, please check <a href=https://toha-guides.netlify.app/posts/configuration/site-parameters/>this post</a>.</p><h4 id=add-data>Add Data</h4><p>Most of the contents of this theme is driven by some YAML files in <code>data</code> directory. In this section, we are going to add some sample data. Since, we building a multilingual site, we are going to keep the data for each language separate into their own locale folder.</p><p>At first, create <code>en</code> folder inside your <code>data</code> directory. We are going to add data for <code>English</code> language here.</p><h5 id=site-information>Site Information</h5><p>Now, create a <code>site.yaml</code> file inside <code>/data/en/</code> directory of your repository. Add the following content there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># Copyright Notice</span>
+<span style=color:#f92672>copyright</span>: <span style=color:#ae81ff>© 2020 Copyright.</span>
+
+<span style=color:#75715e># Meta description for your site.  This will help the search engines to find your site.</span>
+<span style=color:#f92672>description</span>: <span style=color:#ae81ff>Portfolio and personal blog of John Doe.</span>
+</code></pre></div><p>To see all the available options for site information, check <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/site.yaml>this sample file</a>.</p><h5 id=author-information>Author Information</h5><p>Now, create a <code>author.yaml</code> file in <code>/data/en/</code> directory and add your information there as below:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># some information about you</span>
+<span style=color:#f92672>name</span>: <span style=color:#e6db74>&#34;John Doe&#34;</span>
+<span style=color:#f92672>nickname</span>: <span style=color:#e6db74>&#34;John&#34;</span>
+<span style=color:#75715e># greeting message before your name. it will default to &#34;Hi! I am&#34; if not provided</span>
+<span style=color:#f92672>greeting</span>: <span style=color:#e6db74>&#34;Hi, I am&#34;</span>
+<span style=color:#f92672>image</span>: <span style=color:#e6db74>&#34;images/author/john.png&#34;</span>
+<span style=color:#75715e># give your some contact information. they will be used in the footer</span>
+<span style=color:#f92672>contactInfo</span>:
+  <span style=color:#f92672>email</span>: <span style=color:#e6db74>&#34;johndoe@example.com&#34;</span>
+  <span style=color:#f92672>phone</span>: <span style=color:#e6db74>&#34;+0123456789&#34;</span>
+
+<span style=color:#75715e># some summary about what you do</span>
+<span style=color:#f92672>summary</span>:
+  - <span style=color:#ae81ff>I am a Developer</span>
+  - <span style=color:#ae81ff>I am a Devops</span>
+  - <span style=color:#ae81ff>I love servers</span>
+  - <span style=color:#ae81ff>I work on open-source projects</span>
+  - <span style=color:#ae81ff>I love to work with some fun projects</span>
+</code></pre></div><h5 id=add-sections>Add Sections</h5><p>Now, we are going to add different sections into our home page. At first, create a <code>sections</code> folder inside your <code>/data/en</code> directory. Here, we are going to add few sections with minimum configurations. In order to see detailed configuration options for the sections, please visit <a href=https://toha-guides.netlify.app/posts/configuration/sections/>here</a>.</p><h6 id=about-section>About Section</h6><p>Create <code>about.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>About</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>about</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>1</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>template</span>: <span style=color:#ae81ff>sections/about.html</span>
+
+<span style=color:#75715e># your designation</span>
+<span style=color:#f92672>designation</span>: <span style=color:#ae81ff>Software Engineer</span>
+<span style=color:#75715e># your company information</span>
+<span style=color:#f92672>company</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Example Co.</span>
+  <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://www.example.com&#34;</span>
+
+<span style=color:#75715e># your resume. this file path should be relative to you &#34;static&#34; directory</span>
+<span style=color:#f92672>resume</span>: <span style=color:#e6db74>&#34;files/resume.pdf&#34;</span>
+
+<span style=color:#75715e># a summary about you</span>
+<span style=color:#f92672>summary</span>: <span style=color:#e6db74>&#39;I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.&#39;</span>
+
+<span style=color:#75715e># your social links</span>
+<span style=color:#75715e># give as many as you want. use font-awesome for the icons.</span>
+<span style=color:#f92672>socialLinks</span>:
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Github</span>
+  <span style=color:#f92672>icon</span>: <span style=color:#e6db74>&#34;fab fa-github&#34;</span>
+  <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://www.github.com/example&#34;</span>
+
+<span style=color:#75715e># your soft skills</span>
+<span style=color:#75715e># give the percentage between 50 to 100 with 5 intervals.</span>
+<span style=color:#75715e># currently supported colors: blue, yellow, pink, green, sky, orange</span>
+<span style=color:#f92672>softSkills</span>:
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Leadership</span>
+  <span style=color:#f92672>percentage</span>: <span style=color:#ae81ff>85</span>
+  <span style=color:#f92672>color</span>: <span style=color:#ae81ff>blue</span>
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Team Work</span>
+  <span style=color:#f92672>percentage</span>: <span style=color:#ae81ff>90</span>
+  <span style=color:#f92672>color</span>: <span style=color:#ae81ff>yellow</span>
+</code></pre></div><p>Put the <code>resume.pdf</code> file in <code>/static/files</code> directory of your repository. You can find the <code>about.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/about.yaml>here</a>.</p><h6 id=skills-section>Skills Section</h6><p>Create <code>skills.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Skills</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>skills</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>2</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#75715e># Can optionally hide the title in sections</span>
+  <span style=color:#75715e># hideTitle: true</span>
+
+<span style=color:#75715e># Your Skills.</span>
+<span style=color:#75715e># Give a summary of you each skill in the summary section.</span>
+<span style=color:#f92672>skills</span>:
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Kubernetes</span>
+  <span style=color:#f92672>icon</span>: <span style=color:#e6db74>&#34;/images/sections/skills/kubernetes.png&#34;</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#e6db74>&#34;Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.&#34;</span>
+  <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://kubernetes.io/&#34;</span>
+
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Go Development</span>
+  <span style=color:#f92672>icon</span>: <span style=color:#e6db74>&#34;/images/sections/skills/go.png&#34;</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#e6db74>&#34;Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.&#34;</span>
+  <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://golang.org/&#34;</span>
+
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Cloud Computing</span>
+  <span style=color:#f92672>icon</span>: <span style=color:#e6db74>&#34;/images/sections/skills/cloud.png&#34;</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#e6db74>&#34;Worked with most of the major clouds such as GCP, AWS, Azure etc.&#34;</span>
+</code></pre></div><p>Put the skills images into <code>/static/images/sections/skills/</code> directory of your repository. You will find the images <a href=https://github.com/hugo-toha/hugo-toha.github.io/tree/source/static/images/sections/skills>here</a>. Also, you can find the <code>skills.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/skills.yaml>here</a>.</p><h6 id=experiences-section>Experiences Section</h6><p>Create <code>experiences.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Experiences</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>experiences</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>3</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#75715e># Can optionally hide the title in sections</span>
+  <span style=color:#75715e># hideTitle: true </span>
+
+<span style=color:#75715e># Your experiences</span>
+<span style=color:#f92672>experiences</span>:
+- <span style=color:#f92672>company</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Example Co.</span>
+    <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://www.example.com&#34;</span>
+    <span style=color:#f92672>location</span>: <span style=color:#ae81ff>Dhaka Branch</span>
+    <span style=color:#75715e># company overview</span>
+    <span style=color:#f92672>overview</span>: <span style=color:#ae81ff>Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.</span>
+  <span style=color:#f92672>positions</span>:
+  - <span style=color:#f92672>designation</span>: <span style=color:#ae81ff>Senior Software Engineer</span>
+    <span style=color:#f92672>start</span>: <span style=color:#ae81ff>Nov 2019</span>
+    <span style=color:#75715e># don&#39;t provide end date if you are currently working there. It will be replaced by &#34;Present&#34;</span>
+    <span style=color:#75715e># end: Dec 2020</span>
+    <span style=color:#75715e># give some points about what was your responsibilities at the company.</span>
+    <span style=color:#f92672>responsibilities</span>:
+    - <span style=color:#ae81ff>Design and develop XYZ tool for ABC task</span>
+    - <span style=color:#ae81ff>Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster&#39;s resource definition.</span>
+    - <span style=color:#ae81ff>Lead backend team.</span>
+
+- <span style=color:#f92672>company</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>PreExample Co.</span>
+    <span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;https://www.preexample.com&#34;</span>
+    <span style=color:#f92672>location</span>: <span style=color:#ae81ff>Nowhere</span>
+    <span style=color:#f92672>overview</span>: <span style=color:#ae81ff>PreExample Co. is a gateway company to enter into Example co. So, nothing special here.</span>
+  <span style=color:#f92672>positions</span>:
+  - <span style=color:#f92672>designation</span>: <span style=color:#ae81ff>Software Engineer</span>
+    <span style=color:#f92672>start</span>: <span style=color:#ae81ff>March 2016</span>
+    <span style=color:#f92672>end</span>: <span style=color:#ae81ff>May 2017</span>
+    <span style=color:#f92672>responsibilities</span>:
+    - <span style=color:#ae81ff>Write lots of example codes.</span>
+    - <span style=color:#ae81ff>Read lots of examples.</span>
+    - <span style=color:#ae81ff>See lots of example videos.</span>
+</code></pre></div><p>You can find the <code>experiences.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/experiences.yaml>here</a>.</p><h6 id=project-section>Project Section</h6><p>Create <code>projects.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Projects</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>projects</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>4</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#75715e># Can optionally hide the title in sections</span>
+  <span style=color:#75715e># hideTitle: true</span>
+
+<span style=color:#75715e># filter buttons</span>
+<span style=color:#f92672>buttons</span>:
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>All</span>
+  <span style=color:#f92672>filter</span>: <span style=color:#e6db74>&#34;all&#34;</span>
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Professional</span>
+  <span style=color:#f92672>filter</span>: <span style=color:#e6db74>&#34;professional&#34;</span>
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Academic</span>
+  <span style=color:#f92672>filter</span>: <span style=color:#e6db74>&#34;academic&#34;</span>
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Hobby</span>
+  <span style=color:#f92672>filter</span>: <span style=color:#e6db74>&#34;hobby&#34;</span>
+
+<span style=color:#75715e># your projects</span>
+<span style=color:#f92672>projects</span>:
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Kubernetes</span>
+  <span style=color:#f92672>logo</span>: <span style=color:#ae81ff>/images/sections/projects/kubernetes.png</span>
+  <span style=color:#f92672>role</span>: <span style=color:#ae81ff>Contributor</span>
+  <span style=color:#f92672>timeline</span>: <span style=color:#e6db74>&#34;March 2018 - Present&#34;</span>
+  <span style=color:#f92672>repo</span>: <span style=color:#ae81ff>https://github.com/kubernetes/kubernetes</span> <span style=color:#75715e># If your project is a public repo on GitHub, then provide this link. it will show star count.</span>
+  <span style=color:#75715e>#url: &#34;&#34;  # If your project is not a public repo but it has a website or any external details url then provide it here. don&#39;t provide &#34;repo&#34; and &#34;url&#34; simultaneously.</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>Production-Grade Container Scheduling and Management.</span>
+  <span style=color:#f92672>tags</span>: [<span style=color:#e6db74>&#34;professional&#34;</span>, <span style=color:#e6db74>&#34;kubernetes&#34;</span>, <span style=color:#e6db74>&#34;cloud&#34;</span>]
+
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Tensorflow</span>
+  <span style=color:#f92672>logo</span>: <span style=color:#ae81ff>/images/sections/projects/tensorflow.png</span>
+  <span style=color:#f92672>role</span>: <span style=color:#ae81ff>Developer</span>
+  <span style=color:#f92672>timeline</span>: <span style=color:#e6db74>&#34;Jun 2018 - Present&#34;</span>
+  <span style=color:#f92672>repo</span>: <span style=color:#ae81ff>https://github.com/tensorflow/tensorflow</span>
+  <span style=color:#75715e>#url: &#34;&#34;</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>An Open Source Machine Learning Framework for Everyone.</span>
+  <span style=color:#f92672>tags</span>: [<span style=color:#e6db74>&#34;professional&#34;</span>, <span style=color:#e6db74>&#34;machine-learning&#34;</span>,<span style=color:#e6db74>&#34;academic&#34;</span>]
+
+- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Toha</span>
+  <span style=color:#f92672>logo</span>: <span style=color:#ae81ff>/images/sections/projects/toha.png</span>
+  <span style=color:#f92672>role</span>: <span style=color:#ae81ff>Owner</span>
+  <span style=color:#f92672>timeline</span>: <span style=color:#e6db74>&#34;Jun 2019 - Present&#34;</span>
+  <span style=color:#f92672>repo</span>: <span style=color:#ae81ff>https://github.com/hossainemruz/toha</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>A Hugo theme for personal portfolio.</span>
+  <span style=color:#f92672>tags</span>: [<span style=color:#e6db74>&#34;hobby&#34;</span>,<span style=color:#e6db74>&#34;hugo&#34;</span>,<span style=color:#e6db74>&#34;theme&#34;</span>,<span style=color:#e6db74>&#34;professional&#34;</span>]
+</code></pre></div><p>Put the projects images into <code>/static/images/sections/projects/</code> directory of your repository. You will find the images <a href=https://github.com/hugo-toha/hugo-toha.github.io/tree/source/static/images/sections/projects>here</a>. Also, you can find the <code>projects.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/projects.yaml>here</a>.</p><h6 id=recent-posts-section>Recent Posts Section</h6><p>Create <code>recent-posts.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Recent Posts</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>recent-posts</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>5</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+</code></pre></div><p>You can find the <code>recent-posts.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/recent-posts.yaml>here</a>.</p><blockquote><p>This section will be empty until you add any post in your site.</p></blockquote><h6 id=achievements-section>Achievements Section</h6><p>Create <code>achievements.yaml</code> file inside your <code>/data/en/sections/</code> directory. Then add the following contents there:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># section information</span>
+<span style=color:#f92672>section</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Achievements</span>
+  <span style=color:#f92672>id</span>: <span style=color:#ae81ff>achievements</span>
+  <span style=color:#f92672>enable</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#f92672>weight</span>: <span style=color:#ae81ff>6</span>
+  <span style=color:#f92672>showOnNavbar</span>: <span style=color:#66d9ef>true</span>
+  <span style=color:#75715e># Can optionally hide the title in sections</span>
+  <span style=color:#75715e># hideTitle: true</span>
+
+<span style=color:#75715e># Your achievements achievements</span>
+<span style=color:#f92672>achievements</span>:
+- <span style=color:#f92672>title</span>: <span style=color:#ae81ff>Best Presenter</span>
+  <span style=color:#f92672>image</span>: <span style=color:#ae81ff>/images/sections/achievements/presenter.jpg</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>Best presenter in the 2020 XYZ conference.</span>
+- <span style=color:#f92672>title</span>: <span style=color:#ae81ff>Champion</span>
+  <span style=color:#f92672>image</span>: <span style=color:#ae81ff>/images/sections/achievements/sport.jpg</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>Champion in cycling inter-city cycling championship 2020.</span>
+- <span style=color:#f92672>title</span>: <span style=color:#ae81ff>Graduation</span>
+  <span style=color:#f92672>image</span>: <span style=color:#ae81ff>/images/sections/achievements/graduation-cap.jpg</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.</span>
+- <span style=color:#f92672>title</span>: <span style=color:#ae81ff>Award Winner</span>
+  <span style=color:#f92672>image</span>: <span style=color:#ae81ff>/images/sections/achievements/woman-winner.jpg</span>
+  <span style=color:#f92672>summary</span>: <span style=color:#ae81ff>Wined best paper award at IEE Conference 2020.</span>
+</code></pre></div><p>Put the projects images into <code>/static/images/sections/achievements/</code> directory of your repository. You will find the images <a href=https://github.com/hugo-toha/hugo-toha.github.io/tree/source/static/images/sections/achievements>here</a>. Also, you can find the <code>achievements.yaml</code> file used in the example site from <a href=https://github.com/hugo-toha/hugo-toha.github.io/blob/source/data/en/sections/achievements.yaml>here</a>.</p><h4 id=add-posts>Add Posts</h4><p>Now, we are ready add our first post into our site. Here, we are going to add this <a href=https://hugo-toha.github.io/posts/introduction/>introduction post</a>.</p><ul><li>At first, create a <code>posts</code> folder inside <code>content</code> directory of your site.</li><li>Then, create <code>_index.md</code> file inside the <code>posts</code> directory. Copy the content of <a href=https://raw.githubusercontent.com/hugo-toha/hugo-toha.github.io/source/content/posts/_index.md>this file</a> file andd paste into the newly created <code>_index.md</code> file.</li><li>Create <code>introduction</code> folder inside your <code>posts</code> directory.</li><li>Add the following <a href=https://raw.githubusercontent.com/hugo-toha/hugo-toha.github.io/source/content/posts/introduction/hero.svg>hero.svg</a> inside your <code>introduction</code> folder.</li><li>Now, create <code>index.md</code> file inside the <code>introduction</code> folder. This <code>index.md</code> file will hold the post contents.</li><li>Add the following <a href=https://raw.githubusercontent.com/hugo-toha/hugo-toha.github.io/source/content/posts/introduction/index.md>sample contents</a> in the newly created <code>index.md</code> file.</li></ul><p>Now, your post should appear at <code>http://localhost:1313/posts</code> and your <code>Recent Posts</code> section also should show this post card. For translating a post, just create a new file with name <code>index.&lt;language code>.md</code> in the same directory. Then, add the translated content there.</p><p>For more sample posts, please visit <a href=https://github.com/hugo-toha/hugo-toha.github.io/tree/source/content/posts>here</a>.</p><h3 id=what-next>What Next</h3><p>At this point, your site should look similar to the <a href=https://hugo-toha.github.io/>example site</a>. Now, it&rsquo;s time to deploy your site. You can follow the following deployments guides:</p><ul><li><a href=https://toha-guides.netlify.app/posts/getting-started/github-pages/>Deploy in Github Pages</a></li><li><a href=https://toha-guides.netlify.app/posts/getting-started/netlify/>Deploy in Netlify</a></li></ul></div><div class=btn-improve-page><a href=https://github.com/hossainemruz/toha-example-site/edit/master/content/posts/getting-started/prepare-site/index.md><i class="fas fa-code-branch"></i>Improve this page</a></div><hr><div class="row next-prev-navigator"><div class="col-md-12 next-article"><a href=/posts/getting-started/github-pages/ class="btn btn-outline-info"><span>Next <i class="fas fa-chevron-circle-right"></i></span><br><span>Deploy site in Github Pages</span></a></div></div><hr><div id=disqus_thread></div><script type=text/javascript>(function(){if(window.location.hostname=="localhost")return;var dsq=document.createElement("script");dsq.type="text/javascript";dsq.async=true;var disqus_shortname="toha-example-site";dsq.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the
+<a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><ul><li><a href=#create-repository>Create Repository</a></li><li><a href=#create-site>Create Site</a></li><li><a href=#add-theme>Add Theme</a></li><li><a href=#run-site-locally>Run Site Locally</a></li><li><a href=#configure-site>Configure Site</a><ul><li><a href=#update-configyaml>Update <code>config.yaml</code></a></li><li><a href=#add-data>Add Data</a><ul><li><a href=#site-information>Site Information</a></li><li><a href=#author-information>Author Information</a></li><li><a href=#add-sections>Add Sections</a><ul><li><a href=#about-section>About Section</a></li><li><a href=#skills-section>Skills Section</a></li><li><a href=#experiences-section>Experiences Section</a></li><li><a href=#project-section>Project Section</a></li><li><a href=#recent-posts-section>Recent Posts Section</a></li><li><a href=#achievements-section>Achievements Section</a></li></ul></li></ul></li><li><a href=#add-posts>Add Posts</a></li></ul></li><li><a href=#what-next>What Next</a></li></ul></li></ul></nav></div></div></section></div><footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=#about>About</a></li><li class=nav-item><a class=smooth-scroll href=#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=#recent-posts>Recent Posts</a></li><li class=nav-item><a class=smooth-scroll href=#achievements>Achievements</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><span>Email:</span> <span>janedoe@example.com</span></li><li><span>Phone:</span> <span>+0123456789</span></li></ul></div><div class="col-md-4 col-sm-12"><p>Stay up to date with email notification</p><form><div class=form-group><input type=email class=form-control id=exampleInputEmail1 aria-describedby=emailHelp placeholder="Enter email">
+<small id=emailHelp class="form-text text-muted">We'll never share your email with anyone else.</small></div><button type=submit class="btn btn-info">Submit</button></form></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=#><img src=/assets/images/inverted-logo.png>
+Toha</a></div><div class="col-md-4 text-center">© 2020 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/>Powered by
+<img src=/assets/images/hugo-logo-wide.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/assets/js/jquery-3.4.1.min.js></script><script src=/assets/js/popper.min.js></script><script src=/assets/js/bootstrap.min.js></script><script src=/assets/js/navbar.js></script><script src=/assets/js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script><script src=/assets/js/single.js></script><script>hljs.initHighlightingOnLoad();</script></body></html>
