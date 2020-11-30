@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Some Projects
   id: projects
   enable: true
   weight: 4
@@ -21,44 +21,24 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: images/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: Sara
+  role: Frontend developer
+  timeline: "Feb 2019 - Jan 2020"
+  url: "http://www.softechweb.it/en/prodotto/sara/"
+  summary: When i was working for softech i did make most of sara6's alpha version client. Using angular and grafana for a real-time dashboard.
+  tags: ["professional", "frontend", "angular"]
 
-- name: Tensorflow
-  logo: images/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
-
-- name: A sample academic paper
+- name: Famylym'app
   role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  timeline: "Aug 2020 - Nov 2020"
+  url: "https://play.google.com/store/apps/details?id=com.infiniteofficine.myfamilyapp"
+  summary: A little social for families, commissionend by the municipality of Milan (i really hate the design tho, it isn't my choice).
+  tags: ["professional", "mobile", "flutter"]
 
-- name: Nocode
-  logo: images/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: images/projects/toha.png
+- name: FakeBackend
+  logo: images/projects/nodejs.svg
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/handgull/fakeBackend
+  summary: A little node server using json-server as a middlware, good for create mock endpoints to test the client.
+  tags: ["hobby"]

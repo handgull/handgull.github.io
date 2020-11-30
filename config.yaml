@@ -1,7 +1,7 @@
-baseURL: https://toha-guides.netlify.app
+baseURL: https://handgull.github.io
 
-languageCode: en-us
-title: "Toha"
+languageCode: en-US
+title: "Handgull's portfolio"
 theme: "toha"
 
 # Manage languages
@@ -10,12 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  fr:
-    languageName: Français
+  it:
+    languageName: Italiano
     weight: 2
-
-# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: fr
 
 # Allow raw html in markdown file
 markup:
@@ -28,10 +25,10 @@ markup:
     ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+# googleAnalytics: UA-XXXXXXXXX-X
 
 # Enable Disqus forum
-disqusShortname: toha-example-site
+# disqusShortname: does-not-exist
 
 # Enable global emoji support
 enableEmoji: true
@@ -50,7 +47,7 @@ params:
     favicon: /assets/images/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hossainemruz/toha-example-site
+  gitRepo: https://github.com/handgull/handgull.github.io
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true

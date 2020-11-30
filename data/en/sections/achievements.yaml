@@ -1,24 +1,24 @@
 # section information
 section:
-  name: Achievements
+  name: Some Achievements
   id: achievements
   enable: true
   weight: 6
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: images/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: images/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: images/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: images/achievements/woman-winner.jpg
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto minus facere vero?
+- title: Udemy MEAN stack course
+  image: images/achievements/UC-9IBQC0L0 - MEAN stack.jpg
+  summary: Did in the free time, already mastered angular at that time.
+- title: Udemy Flutter & dart course
+  image: images/achievements/UC-4da76003-587d-44e2-a73a-9307bb2223b4 - flutter.jpg
+  summary: My veri first approach to mobile world.
+- title: Udemy Golang course
+  image: images/achievements/UC-9e1682e5-4244-4cf8-b4fa-cc8a8189a54f - golang.jpg
+  summary: Actually i have preferred the free courses offered by google.
+- title: Udemy Mysql & SP course
+  image: images/achievements/UC-WV5DMRQ0 - mysql.jpg
+  summary: When i needed to learn stored procedures dued to an inexpexted commission from a client organization.

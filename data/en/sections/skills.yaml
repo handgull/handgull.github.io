@@ -11,39 +11,33 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  icon: "images/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: https://kubernetes.io/
 
-- name: Go Development
+- name: Angular
+  icon: "images/skills/angular.png"
+  summary: "The web framework i have experienced the most, and my favorite one for big projects. When the app have a lot of things in it i think is better having rigid rules and structures."
+  url: "https://angular.io/docs"
+
+- name: Flutter
+  icon: "images/skills/flutter.png"
+  summary: "My first experience in mobile world, still a fresher when it comes to write some native code (java/kotlin/swift...). I like how dart have implemented his asynchronous library, especially streams (i love them and i love to use the BLOC pattern)"
+  url: "https://flutter.dev/docs"
+
+- name: Golang
   icon: "images/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  icon: "images/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "I have used it a couple of times for little services, i think his approach to the concurrency is a good weapon."
+  url: "https://handgull-go-cookbook.netlify.app/"
 
 - name: Docker
   icon: "images/skills/docker.svg"
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Write most of the programs as dockerized container."
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  icon: "images/skills/prometheus.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
-  icon: "images/skills/linux.png"
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
   icon: "images/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  summary: "Experienced with git-based development. \"If it isn't versioned i don't touch it.\""
+  url: "https://handgull-git-cookbook.netlify.app/"
 
-- name: C++
-  icon: "images/skills/c++.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: And more!
+  summary: "There is a lot more to say but... i don't want to be tedious. If you want to know more check my github or my blog"
+  url: "posts"
+  
