@@ -15,6 +15,8 @@ author:
 math: false
 ---
 
+{{< alert type="warning" >}} Ho creato del codice dimostrativo in deno (ho scritto giusto, non node) a breve continuerò il post. {{< /alert >}}
+
 ## Un errore comune
 Spesso in giro si legge che il **localStorage** non è un luogo sicuro in cui conservare i **token** e che si dovrebbero utilizzare dei **Cookies http-only & secure**, in questo articolo vedremo se è realmente così, dopo una breve panoramica sulle caratteristiche di entrambi.
 

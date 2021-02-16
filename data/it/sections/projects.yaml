@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Some Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Sara
+  role: Frontend developer
+  timeline: "Feb 2019 - Jan 2020"
+  url: "http://www.softechweb.it/en/prodotto/sara/"
+  summary: Quando lavoravo per softech ho fatto la maggior parte della versione alpha di sara6. Usando Angular e Grafana per una dashboard real-time.
+  tags: ["professional", "frontend", "angular"]
+
+- name: Famylym'app
+  role: Team Lead
+  timeline: "Aug 2020 - Nov 2020"
+  url: "https://play.google.com/store/apps/details?id=com.infiniteofficine.myfamilyapp"
+  summary: Un piccolo social commissionato da alcuni municipi di milano (odio il design, non è stata una mia scelta).
+  tags: ["professional", "mobile", "flutter"]
+
+- name: FakeBackend
+  logo: images/projects/nodejs.svg
+  role: Owner
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/handgull/fakeBackend
+  summary: Un piccolo server node che usa json-server come middleware, buono per creare endpoint mock.
+  tags: ["hobby"]

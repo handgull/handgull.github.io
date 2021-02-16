@@ -14,29 +14,29 @@ experiences:
     name: Marius Chiriac limited
     #url: "https://www.example.com"
     location: Novara(NO)
-    overview: A little but strongly preparred company.
+    overview: Compagnia piccola ma che usa tecnologie all'avanguardia.
   positions:
   - designation: Software Engineer
     start: Jun 2020
     responsibilities:
-    - Doing all the frontend stuff, web, mobile and VR.
-    - 'Design projects in every aspect: algorythms, distributed systems, ui/ux, pentesting...'
+    - Mi occupavo di tutte le parti frontend, web, mobile e VR.
+    - 'Dovevo progettare a 360 gradi: algoritmi, sistemi distribuiti, ui/ux, pentesting...'
 - company:
     name: SOFTECH S.r.l.
     url: "http://www.softechweb.it/"
     location: Gallarate(VA)
-    overview: SOFTECH S.r.l. is responsible for provide systems, software and full services to monitor and supervise the interactions between people and the environment.
+    overview: SOFTECH S.r.l. offrono sistemi, software e servizi completi nel campo del monitoraggio e della supervisione delle interazioni umane con l'ambiente.
   positions:
   - designation: Frontend Developer
     start: Dec 2018
     end: Feb 2020
     responsibilities:
-    - Constantly search for good news/technologies in the interest of the company.
-    - Make implementation choices.
-    - Develop the frontend part in one of the big projects in the company.
+    - Fare scelte implementative
+    - Cercare costantemente notizie/tecnologie di interesse per la compagnia.
+    - Sviluppare il frontend di uno dei più grandi progetti della compagnia (nel team aeroporti)
   - designation: Intern
     start: Sep 2018
     end: Dec 2018
     responsibilities:
-    - Learn
-    - Develop external projects as a full-stack newbie
+    - Imparare
+    - Sviluppare commissioni esterne come novizio full-stack

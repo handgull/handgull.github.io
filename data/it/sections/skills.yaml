@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+- name: Angular
+  icon: "images/skills/angular.png"
+  summary: "Il framework per SPA con cui ho fatto più esperienza (react l'ho usato per piccole cose), ed il mio preferito se al progetto ci lavorano molte persone. Quando un applicazione ha molti moduli e molte persone che lavorano, avere standard rigidi aiuta tutti a capire facilmente il codice altrui."
+  url: "https://angular.io/docs"
+
+- name: Flutter
+  icon: "images/skills/flutter.png"
+  summary: "La mia prima esperienza nel mondo mobile, ancora principiante con il codice nativo che a volte va affiancato a dart (java/kotlin/swift...). Amo l' asynchronous library di dart, specialmente gli streams (ed amo usarli all'interno del BLOC pattern)"
+  url: "https://flutter.dev/docs"
+
+- name: Golang
+  icon: "images/skills/go.png"
+  summary: "L'ho usato delle volte per dei microservizi in cloud, penso che l'approccio alla concorrenza di go sia un ottima arma."
+  url: "https://handgull-go-cookbook.netlify.app/"
+
+- name: Docker
+  icon: "images/skills/docker.svg"
+  summary: "La maggior parte dei miei servizi sono dentro dei container"
+  url: "https://www.docker.com/"
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "Non toccherei mai del codice non versionato, ho anche creato una piccola guida riguardo alcune cose base di git"
+  url: "https://handgull-git-cookbook.netlify.app/"
+
+- name: And more!
+  summary: "Potrei dire altro ma... se vi interessa guardate il mio blog (work in progress)"
+  url: "posts"
