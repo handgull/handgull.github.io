@@ -11,6 +11,14 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Ennova research
+    url: "https://ennova-research.com/"
+    location: Lomazzo(CO)
+  positions:
+  - designation: Software Engineer
+    start: May 2021
+    end: Feb 2021
+- company:
     name: Marius Chiriac limited
     #url: "https://www.example.com"
     location: Novara(NO)
