@@ -11,25 +11,6 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Ennova research
-    url: "https://ennova-research.com/"
-    location: Lomazzo(CO)
-  positions:
-  - designation: Software Engineer
-    start: May 2021
-    end: Feb 2021
-- company:
-    name: Marius Chiriac limited
-    #url: "https://www.example.com"
-    location: Novara(NO)
-    overview: A little but strongly preparred company.
-  positions:
-  - designation: Software Engineer
-    start: Jun 2020
-    responsibilities:
-    - Doing all the frontend stuff, web, mobile and VR.
-    - 'Design projects in every aspect: algorythms, distributed systems, ui/ux, pentesting...'
-- company:
     name: SOFTECH S.r.l.
     url: "http://www.softechweb.it/"
     location: Gallarate(VA)
@@ -48,3 +29,22 @@ experiences:
     responsibilities:
     - Learn
     - Develop external projects as a full-stack newbie
+- company:
+    name: Marius Chiriac limited
+    #url: "https://www.example.com"
+    location: Novara(NO)
+    overview: A little but strongly preparred company.
+  positions:
+  - designation: Software Engineer
+    start: Jun 2020
+    responsibilities:
+    - Doing all the frontend stuff, web, mobile and VR.
+    - 'Design projects in every aspect: algorythms, distributed systems, ui/ux, pentesting...'
+- company:
+    name: Ennova research
+    url: "https://ennova-research.com/"
+    location: Lomazzo(CO)
+  positions:
+  - designation: Software Engineer
+    start: May 2021
+    end: Feb 2021
